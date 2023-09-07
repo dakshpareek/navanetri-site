@@ -57,28 +57,7 @@ const NavigationItem: FC<NavigationItemProps> = ({ label, path }) => {
 }
 
 const FooterNavigation: FC = () => {
-  return (
-    <Grid container spacing={2}>
-      <Grid item xs={12} md={4}>
-        <FooterSectionTitle title="Course" />
-        {courseMenu.map(({ label, path }, index) => (
-          <NavigationItem key={index + path} label={label} path={/* path */ '#'} />
-        ))}
-      </Grid>
-      <Grid item xs={12} md={4}>
-        <FooterSectionTitle title="Menu" />
-        {pageMenu.map(({ label, path }, index) => (
-          <NavigationItem key={index + path} label={label} path={path} />
-        ))}
-      </Grid>
-      <Grid item xs={12} md={4}>
-        <FooterSectionTitle title="About" />
-        {companyMenu.map(({ label, path }, index) => (
-          <NavigationItem key={index + path} label={label} path={path} />
-        ))}
-      </Grid>
-    </Grid>
-  )
+  return <Grid container spacing={2}></Grid>
 }
 
 export default FooterNavigation
