@@ -7,7 +7,7 @@ const nextConfig = {
     path: '',
   },
   assetPrefix: './',
-  basePath: '/github-pages',
+  basePath: '/navanetri-site',
 };
 
 module.exports = nextConfig
