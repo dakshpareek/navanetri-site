@@ -7,6 +7,7 @@ const nextConfig = {
     path: '',
   },
   assetPrefix: './',
+  basePath: '/github-pages',
 };
 
 module.exports = nextConfig
